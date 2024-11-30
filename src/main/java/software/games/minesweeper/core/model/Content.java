@@ -1,4 +1,5 @@
 package software.games.minesweeper.model;
 
-public class Board {
+public enum Content {
+    Hint, Mine
 }

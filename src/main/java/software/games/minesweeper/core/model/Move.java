@@ -1,4 +1,4 @@
 package software.games.minesweeper.model;
 
-public class Cell {
+public record Move (int row, int column){
 }
